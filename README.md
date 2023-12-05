@@ -4,13 +4,13 @@
 
   |名称 |说明 |
   |:----|:----|
-  |IP| 10.5.2.1|
+  |IP| 192.168.123.1|
   |用户| root|
   |密码||
 
 > **说明**:构建本openwrt目的是自己使用,没有太多功能比较清爽,仅仅适用我个人使用.
 
-### 构建openwrt或[releases](https://github.com/xYx-c/build-openwrt/releases)下载
+### 构建openwrt或[releases](https://github.com/eysp/build-openwrt/releases)下载
 - Fork本仓库-> Actions-> Build OpenWrt-> Run workflow
 
 ### pve8构建lxc openwrt容器
