@@ -24,6 +24,8 @@ git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-adguardh
 git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/kenzok8/small package/small
 svn co https://github.com/Hyy2001X/AutoBuild-Packages/trunk/luci-app-npc package/luci-app-npc
+git clone https://github.com/ghosthgytop/npc package/npc
+sed -i 's/0.26.8/0.26.10/g' package/npc/Makefile
 
 git clone --depth=1 -b main https://github.com/kingyond/luci-app-accesscontrol-plus accesscontrol-plus
 mv accesscontrol-plus/luci-app-accesscontrol-plus  package/luci-app-accesscontrol-plus && rm -rf accesscontrol-plus
