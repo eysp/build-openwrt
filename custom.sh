@@ -21,6 +21,7 @@ git clone --depth=1 -b master https://github.com/vernesong/OpenClash.git opencla
 mv openclash/luci-app-openclash package/luci-app-openclash && rm -rf openclash
 
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/kenzok8/small package/small
 svn co https://github.com/Hyy2001X/AutoBuild-Packages/trunk/luci-app-npc package/luci-app-npc
 
