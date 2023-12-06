@@ -18,7 +18,7 @@
 ```
 pct create xxx \ # xxx容器序号
 local:vztmpl/openwrt-xxx-rootfs.tar.gz \ # 镜像文件
---rootfs local:2 \ # 容器大小
+--rootfs local-lvm:2 \ # 容器大小
 --ostype unmanaged \
 --hostname openwrt \
 --arch amd64 \
