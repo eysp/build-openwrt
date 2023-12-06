@@ -21,9 +21,9 @@ git clone --depth=1 -b master https://github.com/vernesong/OpenClash.git opencla
 mv openclash/luci-app-openclash package/luci-app-openclash && rm -rf openclash
 
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
-git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
-git clone https://github.com/kenzok8/small package/small
-svn co https://github.com/Hyy2001X/AutoBuild-Packages/trunk/luci-app-npc package/luci-app-npc
+git clone --depth=1 -b main https://github.com/gdy666/luci-app-lucky.git package/luci-app-lucky
+git clone --depth=1 -b master https://github.com/kenzok8/small package/small
+git clone --depth=1 -b master https://github.com/Hyy2001X/AutoBuild-Packages package/AutoBuild-Packages
 git clone https://github.com/ghosthgytop/npc package/npc
 sed -i 's/0.26.8/0.26.10/g' package/npc/Makefile
 
@@ -33,7 +33,7 @@ mv accesscontrol-plus/luci-app-accesscontrol-plus  package/luci-app-accesscontro
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier
 
 # 换源
-svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-23.05/package/emortal package/emortal
+git clone --depth=1 -b main https://github.com/eysp/emortal package/emortal
 sed -i 's,mirrors.vsean.net/openwrt,mirrors.pku.edu.cn/immortalwrt,g' package/emortal/default-settings/files/99-default-settings-chinese
 
 # update golang
