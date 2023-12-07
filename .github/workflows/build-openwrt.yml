@@ -23,8 +23,8 @@ on:
      - cron: '0 1 1 * *'
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: v23.05.2 #v22.03.5
+  REPO_URL: https://github.com/Lienol/openwrt #https://github.com/openwrt/openwrt
+  REPO_BRANCH: 22.03 #v22.03.5
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86-64.config
   CUSTOM_SH: custom.sh
