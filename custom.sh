@@ -33,7 +33,7 @@ mv accesscontrol-plus/luci-app-accesscontrol-plus  package/luci-app-accesscontro
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier
 
 # 换源
-git clone --depth=1 -b main https://github.com/eysp/emortal package/emortal
+#git clone --depth=1 -b main https://github.com/eysp/emortal package/emortal
 sed -i 's,mirrors.vsean.net/openwrt,mirrors.pku.edu.cn/immortalwrt,g' package/emortal/default-settings/files/99-default-settings-chinese
 
 # update golang
